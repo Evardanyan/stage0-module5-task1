@@ -146,6 +146,8 @@ public class ArrayTasks {
                 sortedArr[k][j] = arr[i][j];
             }
         }
-        return sortedArr;
+        arr = sortedArr;
+
+        return arr;
     }
 }
