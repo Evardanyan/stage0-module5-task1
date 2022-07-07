@@ -26,7 +26,7 @@ public class ArrayTasks {
      */
     public int[] generateNumbers(int length) {
         int[] arr = new int[length];
-        for(int i = 1; i <= length; i++) {
+        for(int i = 0; i < length; i++) {
             arr[i] = i;
         }
         return arr;
@@ -95,7 +95,7 @@ public class ArrayTasks {
      * arr = [1, 2]         -> [1, 2]
      */
     public int[] getOnlyPositiveNumbers(int[] arr) {
-        int counter = 1;
+        int counter = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > 0) {
                 counter++;
